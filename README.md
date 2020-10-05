@@ -197,8 +197,7 @@ This driver supports only 16bit colors in RGB565 notation.
 - `ST77xx.rotation(n)`
 
   Configure screen rotation. Takes care of swapping width/height and offset.
-  0 = no rotation, 1 = 90, 2 = 180, 3 =  270
-  Without arguments will return current rotation parameter (0..3)
+  -1 = NOOP (just show current), 0 = no rotation, 1 = 90, 2 = 180, 3 =  270
 
 Also, the module exposes predefined colors:
   `BLACK`, `BLUE`, `RED`, `GREEN`, `CYAN`, `MAGENTA`, `YELLOW`, and `WHITE`
