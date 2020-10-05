@@ -272,3 +272,6 @@ in the `.irom0.text : ALIGN(4)` section
 If you have a display with an unsupported resolution, you can pass
 `xstart` and `ystart` parameters to the display constructor to set the
 required offsets.
+
+## Disclaimer ##
+The Software is not designed for use in devices or situations where there may be physical injury if the Software has errors.
