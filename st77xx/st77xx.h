@@ -11,6 +11,9 @@ extern "C" {
 #define ST77XX_135x240_YSTART   40
 #define ST77XX_240x240_XSTART   0
 #define ST77XX_240x240_YSTART   0
+#define ST77XX_128x160_XSTART   50
+#define ST77XX_128x160_YSTART   0
+
 
 // color modes
 #define COLOR_MODE_65K      0x50
