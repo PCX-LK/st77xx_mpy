@@ -623,9 +623,12 @@ mp_obj_t st77xx_ST77XX_make_new(const mp_obj_type_t *type,
     } else if (self->width == 135 && self->height == 240) {
         self->xstart = ST77XX_135x240_XSTART;
         self->ystart = ST77XX_135x240_YSTART;
-    } else if (self->width == 80 && self->height == 160) {
+    } else if (self->width == 50 && self->height == 160) {
         self->xstart = ST77XX_80x160_XSTART;
         self->ystart = ST77XX_80x160_YSTART;
+    } else if (self->width == 128 && self->height == 160) {
+        self->xstart = ST77XX_128x160_XSTART;
+        self->ystart = ST77XX_128x160_YSTART;
     } else {
         mp_raise_ValueError(MP_ERROR_TEXT("Unsupported display without xstart and ystart provided"));
     }
